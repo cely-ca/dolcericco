@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolce & Ricco | Pastelería de Alto Nivel</title>
+    <meta name="description"
+        content="Convertimos el amor en postres... tus postres. Tortas personalizadas, cupcakes y galletas en San Cristóbal.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Plus Jakarta Sans for main text, Pacifico for sweet cursive accents -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/584127800335" class="floating-wa" target="_blank"
+        aria-label="Solicita tu postre por WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-message-circle">
+            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+        </svg>
+    </a>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="https://scontent.cdninstagram.com/v/t51.2885-19/275835778_1115250945994268_1332058446961063182_n.jpg?stp=dst-jpg_s100x100_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=bf7eb4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&amp;_nc_ohc=gmVlqgHnMbsQ7kNvwGnt8C3&amp;_nc_oc=AdqeGVBqQuPbh70j7_uATfi7iadtkTbtBfTA-dINrdS0G_J3wHbcfropidn678qhFew&amp;_nc_zt=24&amp;_nc_ht=scontent.cdninstagram.com&amp;_nc_ss=7fa02&amp;oh=00_Af6UA7MKI9R88JaBPlomcBWMb4sIX7K734nlbGfVWePgRw&amp;oe=69FF0A2C"
+                    alt="Dolce & Ricco" class="logo">
+                <span>Dolce & Ricco</span>
+            </div>
+            <div class="nav-links">
+                <a href="portfolio.html" class="nav-link">Portafolio</a>
+                <a href="https://wa.me/584127800335" class="nav-cta">Hacer pedido</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <span class="badge">Pastelería Premium</span>
+                <h1>El sabor inolvidable que tus momentos especiales merecen</h1>
+                <p class="subtitle">Convertimos el amor en postres... <span class="accent-text">tus postres.</span></p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/584127800335" class="btn btn-primary btn-large">
+                        <i data-lucide="message-circle"></i> Solicita tu postre por WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Carousel (CSS only for MVP) -->
+            <div class="hero-carousel-wrapper">
+                <div class="carousel-track">
+                    <!-- Images from Unsplash representing high-end pastry as requested -->
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=600"
+                        alt="Torta elegante" class="carousel-img">
+                    <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&q=80&w=600"
+                        alt="Cupcakes premium" class="carousel-img">
+                    <!--<img src="https://images.unsplash.com/photo-1495147466023-e6a480474b11?auto=format&fit=crop&q=80&w=600"
+                        alt="Galletas decoradas" class="carousel-img">-->
+                    <!-- Duplicate for infinite scroll effect -->
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=600"
+                        alt="Torta elegante" class="carousel-img">
+                    <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&q=80&w=600"
+                        alt="Cupcakes premium" class="carousel-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Trust Signals -->
+    <div class="trust-bar">
+        <div class="container trust-grid">
+            <div class="trust-item">
+                <i data-lucide="heart-handshake" class="trust-icon magenta"></i>
+                <span>Endulzando tus sueños por más de 7 años</span>
+            </div>
+            <div class="trust-item">
+                <i data-lucide="star" class="trust-icon gold"></i>
+                <span>Atención de primera</span>
+            </div>
+            <div class="trust-item">
+                <i data-lucide="award" class="trust-icon magenta"></i>
+                <span>El mejor sabor con los mejores ingredientes</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Services -->
+    <section class="services section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Nuestras Creaciones</h2>
+                <p>Postres diseñados a la medida de tus antojos</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="cake"></i>
+                    </div>
+                    <h3>Tortas Personalizadas</h3>
+                    <p>Diseños únicos y sabores irresistibles que se convertirán en el centro de atención de tu
+                        celebración.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="cup-soda"></i> <!-- Using cup as proxy for cupcake -->
+                    </div>
+                    <h3>Cupcakes</h3>
+                    <p>Pequeñas porciones de felicidad con una crema extra suave y esponjosidad que derrite corazones.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="cookie"></i>
+                    </div>
+                    <h3>Galletas</h3>
+                    <p>Las clásicas reinventadas. Crujientes por fuera, suaves por dentro y cargadas del mejor
+                        chocolate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us / Meet the Specialist -->
+    <section class="about section-padding bg-pink-light">
+        <div class="container about-container">
+            <div class="about-image-wrapper">
+                <!-- Using a high-quality chef image as placeholder -->
+                <img src="https://images.unsplash.com/photo-1581349485608-9469926a8e5e?auto=format&fit=crop&q=80&w=800"
+                    alt="Chef Andrea" class="about-img">
+                <div class="about-card-float">
+                    <span class="stars gold">★★★★★</span>
+                    <p>Excelencia pastelera</p>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2 class="accent-title">Conoce a nuestro equipo</h2>
+                <p class="greeting">¡Hola! ✨ Soy Andrea, Chef Pastelera y Repostera.</p>
+                <p>Bienvenidos a Dolce & Ricco, donde convertimos el <strong>#AmorEnPostres</strong> 🥰. Cuidamos cada
+                    detalle, cada ingrediente y cada receta para asegurarnos de que pruebes la perfección.</p>
+
+                <div class="offer-list">
+                    <p>Tenemos para ti:</p>
+                    <ul>
+                        <li>🍰 Tortas</li>
+                        <li>🧁 Cupcakes</li>
+                        <li>🍪 Galletas</li>
+                        <li>✨ y Más...</li>
+                    </ul>
+                </div>
+                <p class="location-tag"><i data-lucide="map-pin"></i> Directamente desde San Cristóbal</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <p>Momentos dulces compartidos con nosotros</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="stars gold">★★★★★</div>
+                    <p class="review-text">"Las mejores Galletas, el sabor es de otro nivel y la textura perfecta.
+                        Totalmente recomendadas."</p>
+                    <div class="reviewer">
+                        <div class="avatar magenta-bg">G</div>
+                        <span class="name">Génesis Janeira</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 (Adapted/Expanded for visual balance) -->
+                <div class="testimonial-card">
+                    <div class="stars gold">★★★★★</div>
+                    <p class="review-text">"La torta de mi aniversario no solo quedó hermosa, sino que estaba deliciosa.
+                        Andrea captó exactamente lo que quería."</p>
+                    <div class="reviewer">
+                        <div class="avatar gold-bg">C</div>
+                        <span class="name">Camila Rodríguez</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 (Adapted/Expanded for visual balance) -->
+                <div class="testimonial-card">
+                    <div class="stars gold">★★★★★</div>
+                    <p class="review-text">"Los cupcakes son una adicción. La crema es súper suave y nada empalagosa.
+                        Atención 10/10."</p>
+                    <div class="reviewer">
+                        <div class="avatar magenta-bg">V</div>
+                        <span class="name">Valentina Pérez</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="https://scontent.cdninstagram.com/v/t51.2885-19/275835778_1115250945994268_1332058446961063182_n.jpg?stp=dst-jpg_s100x100_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=bf7eb4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&amp;_nc_ohc=gmVlqgHnMbsQ7kNvwGnt8C3&amp;_nc_oc=AdqeGVBqQuPbh70j7_uATfi7iadtkTbtBfTA-dINrdS0G_J3wHbcfropidn678qhFew&amp;_nc_zt=24&amp;_nc_ht=scontent.cdninstagram.com&amp;_nc_ss=7fa02&amp;oh=00_Af6UA7MKI9R88JaBPlomcBWMb4sIX7K734nlbGfVWePgRw&amp;oe=69FF0A2C"
+                        alt="Dolce & Ricco" class="logo-img">
+                    <span class="white-text">Dolce & Ricco</span>
+                </div>
+                <p class="footer-desc">Endulzando tus momentos especiales con ingredientes premium y mucho amor.</p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contacto y Ubicación</h3>
+                <div class="contact-item">
+                    <i data-lucide="map-pin"></i>
+                    <span>San Cristóbal, sector La Popita. Av. Ferrero Tamayo</span>
+                </div>
+                <div class="contact-item">
+                    <i data-lucide="clock"></i>
+                    <span>Lunes, Martes, Jueves a Sábado<br>9:00 AM - 6:00 PM</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/dolcericco.ve/" target="_blank" aria-label="Instagram">
+                        <i data-lucide="instagram"></i>
+                    </a>
+                    <a href="https://wa.me/584127800335" target="_blank" aria-label="WhatsApp">
+                        <i data-lucide="message-circle"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Dolce & Ricco. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
