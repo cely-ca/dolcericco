@@ -227,8 +227,8 @@ h3 {
 }
 
 .logo-icon {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 }
 
 .logo-icon.white {
@@ -429,7 +429,7 @@ h3 {
 }
 
 .about-img {
-    width: 100%;
+    width: 90%;
     height: 400px;
     object-fit: cover;
 }
